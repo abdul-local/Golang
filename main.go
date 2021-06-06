@@ -1,39 +1,39 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
+// func main() {
 
-	// fungsi untuk menampilkan hello word
-	fmt.Println("hello word")
+// 	// fungsi untuk menampilkan hello word
+// 	fmt.Println("hello word")
 
-	// deklarasikan sebuah variabel
-	var firstname string = "abdul hamzan"
-	var lastname string
-	lastname = "wadi"
-	fmt.Printf("halo %s %s !\n", firstname, lastname)
-	var firstname1 = "abdul"
-	// tanpa mengunakan var, tanpa tipe data
-	lastname1 := "hamzan"
+// 	// deklarasikan sebuah variabel
+// 	var firstname string = "abdul hamzan"
+// 	var lastname string
+// 	lastname = "wadi"
+// 	fmt.Printf("halo %s %s !\n", firstname, lastname)
+// 	var firstname1 = "abdul"
+// 	// tanpa mengunakan var, tanpa tipe data
+// 	lastname1 := "hamzan"
 
-	fmt.Printf("halo %s %s !\n", firstname1, lastname1)
+// 	fmt.Printf("halo %s %s !\n", firstname1, lastname1)
 
-	// untuk multi variabel
+// 	// untuk multi variabel
 
-	var one, two, three string
-	one, two, three = "satu", "dua", "tiga"
-	fmt.Printf("urutan %s %s %s", one, two, three)
+// 	var one, two, three string
+// 	one, two, three = "satu", "dua", "tiga"
+// 	fmt.Printf("urutan %s %s %s", one, two, three)
 
-	// variabel underScore
-	_ = "belajar golang"
-	name, _ := "hamazam", "erik"
-	fmt.Printf(" halow %s \n", name)
+// 	// variabel underScore
+// 	_ = "belajar golang"
+// 	name, _ := "hamazam", "erik"
+// 	fmt.Printf(" halow %s \n", name)
 
-	// deklarasikan variable dengan keyword new untuk pointer
+// 	// deklarasikan variable dengan keyword new untuk pointer
 
-	name1 := new(string)
+// 	name1 := new(string)
 
-	fmt.Println(name1)
-	fmt.Println(*name1)
+// 	fmt.Println(name1)
+// 	fmt.Println(*name1)
 
-}
+// }
