@@ -1,12 +1,12 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
+// func main() {
 
-	const nama string = "abdul"
-	const last = "hamzan"
-	fmt.Printf("nama saya:%s\n", nama)
-	fmt.Print("Nice to meet you", last, "\n")
+// 	const nama string = "abdul"
+// 	const last = "hamzan"
+// 	fmt.Printf("nama saya:%s\n", nama)
+// 	fmt.Print("Nice to meet you", last, "\n")
 
-}
+// }
